@@ -1,0 +1,31 @@
+{
+	"name": "Site Blocker for safe Family Friendly Browsing",
+	"version": "1.0",
+	"description": "Blocks a predetermined set of websites from a list.",
+	
+	"permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+	
+	"page_action":
+	{
+		"default_icon":
+		{
+			"16": "images/siteBlocker16.png",
+			"32": "images/siteBlocker32.png",
+			"48": "images/siteBlocker48.png",
+			"128": "images/siteBlocker128.png"
+		}
+	},
+	
+	"background":
+	{
+		"scripts": ["background.js"]
+	},
+	"icons":
+	{
+		"16": "images/siteBlocker16.png",
+		"32": "images/siteBlocker32.png",
+		"48": "images/siteBlocker48.png",
+		"128": "images/siteBlocker128.png"
+	},
+	"manifest_version": 2
+}
